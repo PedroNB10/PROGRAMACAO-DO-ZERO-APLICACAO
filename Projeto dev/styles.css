@@ -1,1 +1,18 @@
-/* cascading style sheets = folhas de estilo em cascata */
+/* cascading style sheets = folhas de estilo em cascata 
+
+classe usa ponto*/
+/* o * serve para tudo*/
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+   
+    
+}
+.caixa-superior{
+    background-image: url("./dev.png");
+    width: ;
+    height: 70vh; /* vh view height / Altura da tela dividida por 100 */
+
+}
+
