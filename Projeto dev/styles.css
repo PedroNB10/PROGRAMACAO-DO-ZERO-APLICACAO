@@ -6,7 +6,7 @@ classe usa ponto*/
     margin: 0 ;
     padding: 0;
     box-sizing: border-box;
-   
+    font-family: 'Montserrat', sans-serif;
     
 }
 .caixa-superior{
@@ -14,4 +14,106 @@ classe usa ponto*/
     height: 90vh; /* vh view height / Altura da tela dividida por 100 */
 
 }
+
+.cabecalho{
+padding-top: 25px;
+padding-left: 35px;
+}
+
+.titulo-cabecalho{
+    font-size: 24px;
+    color: #FFFFFF;
+    display: inline;
+}
+
+.link-cabecalho{
+
+        font-size: 14px;
+        color: #FFFFFF;
+        display: inline;
+        margin-left: 20px;
+        cursor:pointer;
+}
+
+h1{
+    font-size: 58px;
+    color:#FFFFFF;
+    position:relative;
+    top: 280px;
+    margin-left:35px;
+}
+
+form{
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    float: right;
+    padding: 20px;
+    margin-right: 50px;
+    position: relative; /* posição relativa ao :*/
+    bottom: 70px;      /* bottom*/
+
+}
+
+input{
+    display: block;
+    background: #F9F9F9;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+    height: 40px;
+    width: 250px;
+    margin-bottom: 20px;
+    padding-left: 15px;
+    
+
+}
+
+textarea{
+    display: block;
+    height: 80px;
+    width: 250px;
+    background: #F9F9F9;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+    padding-left: 15px;
+    margin-bottom: 20px;
+    
+}
+
+.titulo-formulario{
+
+    font-size: 24px;
+    color: #252B42;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+label{
+
+    font-size: 14px;
+    color: #252B42;
+
+
+}
+button{
+    width: 250px;
+    height: 40px;
+    cursor:pointer;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color:#120a8f;
+   
+
+}
+.titulo-meio{
+
+    font-size: 40px;
+    color: #252B42;
+    text-align: center;
+    
+}
+
+
+
+
 
