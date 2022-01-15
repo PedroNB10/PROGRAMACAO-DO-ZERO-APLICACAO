@@ -25,24 +25,24 @@
 
         <div class="cabecalho">
             <h2 class="titulo-cabecalho">Dev Contábil</h2>
-            <a class="link-cabecalho">Quem somos</a>
-            <a class="link-cabecalho">Serviços</a>
+            <a href="#titulo-inferior" class="link-cabecalho">Quem somos</a>
+            <a href="#titulo-meio"class="link-cabecalho">Serviços</a>
             <a class="link-cabecalho">Contato</a>
         </div>
 
         <h1>Dev Contábil</h1>
-        <form>
+        <form action="https://formsubmit.co/pedro.nogueira.barboza@gmail.com" method="POST">
             <h3 class="titulo-formulario">Entre em Contato</h3>
 
             <label>
                 Nome
-                <input placeholder="Digite seu nome" /> <!-- está dentro da input-->
+                <input type="text" name="nome" placeholder="Digite seu nome" required/> <!-- está dentro da input-->
 
             </label>
 
             <label>
                 Email
-                <input placeholder="Digite seu Email" /> <!-- está dentro da input-->
+                <input type="email" name="email" placeholder="Digite seu Email" required/> <!-- está dentro da input-->
 
             </label>
 
@@ -50,18 +50,18 @@
             <label>
                 Fale Conosco
 
-                <textarea placeholder="Qual é a sua dúvida?"></textarea>
+                <textarea name="info" placeholder="Qual é a sua dúvida?"></textarea>
 
             </label>
 
-            <button>Enviar</button>
+            <button type="submit">Enviar</button>
 
 
         </form>
 
     </div>
 
-    <h2 class="titulo-meio">Nossos Serviços</h2>
+    <h2 id="titulo-meio">Nossos Serviços</h2>
     
     <div class="caixa-central">
         
@@ -107,7 +107,7 @@
     </div>
 
     <div class="caixa-inferior">
-        <h2 class="titulo-inferior">Sobre nós</h2>
+        <h2 id="titulo-inferior">Sobre nós</h2>
         <p class="paragrafo-inferior"> Estamos presente no mercado há mais de 4 décadas auxiliando nossos clientes nacionais e internacionais que
             já
             atuam ou desejam abrir seus negócios e ingressar no Brasil.

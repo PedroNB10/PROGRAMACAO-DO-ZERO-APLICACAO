@@ -11,6 +11,7 @@ classe usa ponto*/
 }
 .caixa-superior{
     background-image: url("./dev.png");
+    background-size: cover; /* serve para não criar outras imagens ao fazer zoom*/
     height: 90vh; /* vh view height / Altura da tela dividida por 100 */
 
 }
@@ -33,6 +34,7 @@ padding-left: 35px;
         display: inline;
         margin-left: 20px;
         cursor:pointer;
+        text-decoration: none;
 }
 
 h1{
@@ -113,13 +115,14 @@ margin-bottom: 50px;
 
 }
 
-.titulo-meio{
+#titulo-meio{
 
     font-size: 40px;
     color: #252B42;
     text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
+   
     
 }
 
@@ -159,7 +162,7 @@ li{
     
 }
 
-.titulo-inferior{
+#titulo-inferior{
 
     color: #FFFFFF;
     font-size: 40px;
