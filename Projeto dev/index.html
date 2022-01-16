@@ -27,11 +27,11 @@
             <h2 class="titulo-cabecalho">Dev Contábil</h2>
             <a href="#titulo-inferior" class="link-cabecalho">Quem somos</a>
             <a href="#titulo-meio"class="link-cabecalho">Serviços</a>
-            <a class="link-cabecalho">Contato</a>
+            <a class="link-cabecalho" onclick ="abrir_formulario()">Contato</a>
         </div>
 
         <h1>Dev Contábil</h1>
-        <form action="https://formsubmit.co/pedro.nogueira.barboza@gmail.com" method="POST">
+        <form id="formulario-contato" action="https://formsubmit.co/pedro.nogueira.barboza@gmail.com" method="POST">
             <h3 class="titulo-formulario">Entre em Contato</h3>
 
             <label>
@@ -43,6 +43,12 @@
             <label>
                 Email
                 <input type="email" name="email" placeholder="Digite seu Email" required/> <!-- está dentro da input-->
+
+            </label>
+
+            <label>
+                WhatsApp
+                <input type="tel" name="telefone" placeholder="Digite seu telefone" required/> <!-- está dentro da input-->
 
             </label>
 
@@ -126,6 +132,16 @@
             incorporação ou desmembramento de atividades.</p>
 
     </div>
+
+    <script>
+    
+    let formulario = document.getElementById("formulario-contato")
+    
+    function abrir_formulario(){
+        formulario.className = "mostrar-formulario"
+    }
+
+    </script>
 
 </body>
 
